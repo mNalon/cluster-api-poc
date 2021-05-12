@@ -1,0 +1,15 @@
+{
+  "name": "cluster-api-poc",
+  "version": "1.0.0",
+  "description": "A POC to test the Cluster API use",
+  "main": "index.js",
+  "scripts": {
+    "start:single-process": "node single-process.js",
+    "start:multi-process": "node multi-process.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
