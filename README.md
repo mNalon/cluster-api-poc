@@ -38,3 +38,16 @@ npx loadtest http://localhost:4000/api/50000000 -n 1000 -c 100
 ```
 
 Compare the results!
+
+
+## PM2
+
+```
+npm install -g pm2
+```
+
+Spawn the single process into a number of processes equal to the number of your CPU cores. 
+
+```
+pm2 start single-process.js -i 0
+```
